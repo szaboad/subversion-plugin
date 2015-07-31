@@ -94,4 +94,7 @@ public final class Phabricator extends SubversionRepositoryBrowser {
         return new URL(url, "r" + callsign + changeSet.getRevision());
     }
 
+    public String getCallsign() {
+        return callsign;
+    }
 }
